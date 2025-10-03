@@ -1,0 +1,11 @@
+HDS_HORZ|0|水平显示
+HDS_BUTTONS|2|按钮样式,可响应鼠标点击
+HDS_HOTTRACK|4|允许热点选择
+HDS_HIDDEN|8|使其高度为0,类似隐藏的效果,非真正隐藏
+HDS_DRAGDROP|64|允许通过拖放列头来重新安排各列
+HDS_FULLDRAG|128|拖动时显示列头内容
+HDS_FILTERBAR|256|包含一个过滤栏
+HDS_FLAT|512|平面样式,不响应鼠标点击(WinXP以上)
+HDS_CHECKBOXES|1024|允许在标题项上放置复选框
+HDS_NOSIZING|2048|用户无法在标题控件上拖动分隔符。
+HDS_OVERFLOW|4096|如果并非所有项目都可以在标题控件的矩形内显示，则会显示一个按钮。单击时，此按钮发送HDN_OVERFLOWCLICK通知。

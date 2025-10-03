@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frameWnd_layout x="48" y="9" width="1429" height="815" maximize="0">
+	<cell state="1" dockAlign="0" type="3" size="630" show="1" calcLayout="1">
+		<cell state="1" dockAlign="0" type="2" size="456" show="1" calcLayout="1">
+			<group activate="1" state="1" dockAlign="0" type="5" size="217" show="1" calcLayout="1">
+				<pane id="10003" />
+				<pane id="10013" />
+			</group>
+			<view state="1" dockAlign="0" type="6" size="970" show="1" calcLayout="1" />
+			<group activate="1" state="1" dockAlign="0" type="5" size="216" show="1" calcLayout="1">
+				<pane id="10010" />
+				<pane id="10011" />
+			</group>
+		</cell>
+		<cell state="1" dockAlign="0" type="2" size="233" show="1" calcLayout="1">
+			<group activate="4" state="1" dockAlign="0" type="5" size="630" show="1" calcLayout="1">
+				<pane id="10001" />
+				<pane id="10007" />
+				<pane id="10004" />
+				<pane id="10002" />
+				<pane id="10009" />
+			</group>
+			<group activate="3" state="1" dockAlign="0" type="5" size="630" show="1" calcLayout="1">
+				<pane id="10005" />
+				<pane id="10006" />
+				<pane id="10012" />
+				<pane id="10008" />
+			</group>
+		</cell>
+	</cell>
+</frameWnd_layout>

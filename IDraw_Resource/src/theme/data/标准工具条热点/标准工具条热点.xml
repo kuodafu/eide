@@ -1,0 +1,26 @@
+<theme path="梓袧馱撿沭��萸" size="16,15">
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\NewFileCollection_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\OpenFolder_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\SaveStatusBar1_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\Cut_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\Copy_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\Paste_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\Print_16x.png"/>
+    <Item image="D:\Desktop\匼第\VS2019 Image Library\vswin2019\Redo\Redo_16x.png"/>
+    <Item image="D:\Desktop\匼第\VS2019 Image Library\vswin2019\Undo\Undo_16x.png"/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item image="D:\Desktop\匼第\VS2019 Image Library\vswin2019\Run\Run_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\Stop_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\FileSystemWatcher_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\StepForward_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\StepOver_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\StepOut_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\StepIn_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\ToggleAllBreakpoints_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\ToolTip_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\FindResults_16x.png"/>
+    <Item/>
+</theme>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源相关">
+      <UniqueIdentifier>{fd4bf12c-40bb-475b-b944-376c53662546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能">
+      <UniqueIdentifier>{9fcca874-4ffb-4d87-9c04-d96a5d108d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\zlib">
+      <UniqueIdentifier>{4b0925c8-221e-4ebc-bbe5-845c488d3730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\xml">
+      <UniqueIdentifier>{615c9166-ada4-41b8-8e13-8c594e436286}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IDraw_Resource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ThemeResourceExt.cpp">
+      <Filter>资源相关</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindow_Resource.cpp">
+      <Filter>资源相关</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\adler32.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\compress.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\crc32.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\deflate.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\gzclose.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\gzlib.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\gzread.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\gzwrite.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\infback.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\inffast.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\inflate.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\inftrees.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\trees.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\uncompr.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\zutil.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\xml2\tinyxml2.cpp">
+      <Filter>辅助功能\xml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ThemeResourceExt.h">
+      <Filter>资源相关</Filter>
+    </ClInclude>
+    <ClInclude Include="EWindow_Resource.h">
+      <Filter>资源相关</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\crc32.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\Czlib.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\deflate.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\gzguts.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\inffast.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\inffixed.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\inflate.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\inftrees.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\trees.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\zconf.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\zlib.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\zutil.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\xml2\tinyxml2.h">
+      <Filter>辅助功能\xml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IDraw_Resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\iDraw\src\主题.nskn" />
+    <None Include="src\theme\ComboboxLocation.ires" />
+    <None Include="src\theme\MenuItem.ires" />
+    <None Include="src\theme\msctls_updown32_lr.ires" />
+    <None Include="src\theme\msctls_updown32_tb.ires" />
+    <None Include="src\theme\ToolBar.ires" />
+    <None Include="src\theme\TreeControl.ires" />
+    <None Include="src\theme\TreeExpand.ires" />
+    <None Include="src\theme\TreeFne.ires" />
+    <None Include="src\theme\TreeProgram.ires" />
+    <None Include="src\theme\TopState.ires" />
+    <None Include="src\theme\icon.ires" />
+    <None Include="src\主题.nskn" />
+    <None Include="src\默认主题数据集合.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\iDraw\src\DistributeHorizontalCenter_16x_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\iDraw\src\eLogo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="src\eLogo.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="src\marlett.ttf" />
+  </ItemGroup>
+</Project>

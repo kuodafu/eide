@@ -1,0 +1,5 @@
+<Theme maxSize="16,16" imgSize="47,16">
+    <Item id="default" text="" szRect1="0,0,0,0" szRect2="0,0,0,0" szRect3="0,0,0,0" szRect4="0,0,0,0" crText1="ARGB(0, 0, 0, 0)" crText2="ARGB(0, 0, 0, 0)" crText3="ARGB(0, 0, 0, 0)" crText4="ARGB(0, 0, 0, 0)" crBack1="ARGB(0, 0, 0, 0)" crBack2="ARGB(0, 0, 0, 0)" crBack3="ARGB(0, 0, 0, 0)" crBack4="ARGB(0, 0, 0, 0)">菜单按条目ID查找, 选中状态使用按下状态</Item>
+    <Item id="select" text="" szRect1="0,0,16,16" szRect2="0,0,0,0" szRect3="16,0,32,16" szRect4="0,0,0,0" crText1="ARGB(0, 0, 0, 0)" crText2="ARGB(0, 0, 0, 0)" crText3="ARGB(0, 0, 0, 0)" crText4="ARGB(0, 0, 0, 0)" crBack1="ARGB(0, 0, 0, 0)" crBack2="ARGB(0, 0, 0, 0)" crBack3="ARGB(0, 0, 0, 0)" crBack4="ARGB(0, 0, 0, 0)">选中的图标, 如果对应ID没有设置选中图标, 默认使用这个</Item>
+    <Item id="triangle" text="" szRect1="32,0,37,9" szRect2="37,0,42,9" szRect3="42,0,47,9" szRect4="0,0,0,0" crText1="ARGB(0, 0, 0, 0)" crText2="ARGB(0, 0, 0, 0)" crText3="ARGB(0, 0, 0, 0)" crText4="ARGB(0, 0, 0, 0)" crBack1="ARGB(0, 0, 0, 0)" crBack2="ARGB(0, 0, 0, 0)" crBack3="ARGB(0, 0, 0, 0)" crBack4="ARGB(0, 0, 0, 0)">子菜单右边的三角形, 如果获取不到这个值就使用默认的</Item>
+</Theme>

@@ -1,0 +1,20 @@
+TCS_RIGHTJUSTIFY|0|如有必要，每个标签的宽度都会增加，以便每行标签填充标签控件的整个宽度。除非还指定了TCS_MULTILINE样式，否则将忽略此窗口样式
+TCS_TABS|0|选项卡样式, 四周有边框, 缺省样式
+TCS_SINGLELINE|0|单行显示
+TCS_SCROLLOPPOSITE|1|选择一个选项卡时不需要滚动对边
+TCS_BOTTOM|2|选项卡在底部
+TCS_RIGHT|2|选项卡在右边
+TCS_MULTISELECT|4|允许多选
+TCS_FLATBUTTONS|8|平面按钮样式, 四周没有边框
+TCS_FORCEICONLEFT|16|强制图标在左边
+TCS_FORCELABELLEFT|32|强制标签在左边
+TCS_HOTTRACK|64|允许热点选择
+TCS_VERTICAL|128|选项卡在左边并且文字垂直显示
+TCS_BUTTONS|256|按钮样式, 四周没有边框
+TCS_MULTILINE|512|多行显示
+TCS_FIXEDWIDTH|1024|选项卡宽度固定
+TCS_RAGGEDRIGHT|2048|不允许拉伸选项卡以适应宽度
+TCS_FOCUSONBUTTONDOWN|4096|点击时获取焦点
+TCS_OWNERDRAWFIXED|8192|父窗口负责画出选项卡
+TCS_TOOLTIPS|16384|允许出现提示信息窗口
+TCS_FOCUSNEVER|32768|点击时不获取焦点

@@ -1,0 +1,8 @@
+DTS_SHORTDATEFORMAT|0|以短格式显示日期。此样式的默认格式字符串由LOCALE_SSHORTDATE定义，它产生类似“4/19/96”的输出
+DTS_UPDOWN|1|在DTP控件的右侧放置一个上下控件以修改日期时间值。此样式可用于代替下拉月份日历，这是默认样式。
+DTS_SHOWNONE|2|可以在控件中当前没有选择日期。使用此样式时，控件会显示一个复选框，只要选择或输入日期，该复选框就会自动选中。如果随后取消选中该复选框，则应用程序无法从控件中检索日期，因为实际上控件没有日期。可以使用DTM_SETSYSTEMTIME消息设置复选框的状态，也可以使用DTM_GETSYSTEMTIME消息查询该状态。
+DTS_LONGDATEFORMAT|4|以长格式显示日期。此样式的默认格式字符串由LOCALE_SLONGDATEFORMAT定义，其产生的输出类似于“Friday，April 19,1996”。使用此样式时，下拉按钮不显示图标。
+DTS_TIMEFORMAT|9|显示时间。此样式的默认格式字符串由LOCALE_STIMEFORMAT定义，它产生类似“5:31:42 PM”的输出。
+DTS_SHORTDATECENTURYFORMAT|12|与DTS_SHORTDATEFORMAT样式类似，除了年份是四位数字段。此样式的默认格式字符串基于LOCALE_SSHORTDATE。输出看起来像：“4/19/1996”。
+DTS_APPCANPARSE|16|允许所有者解析用户输入并采取必要的操作。它使用户能够在按下F2键时在控件的客户区域内进行编辑。用户完成后，控件会发送DTN_USERSTRING通知代码。
+DTS_RIGHTALIGN|32|下拉月份日历将与控件右对齐，而不是左对齐，这是默认值

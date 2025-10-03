@@ -1,0 +1,109 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// IRES
+//
+
+IDEXT_COMBOBOXLOCATION  IRES                    "src\\theme\\ComboboxLocation.ires"
+
+IDEXT_MENUITEM          IRES                    "src\\theme\\MenuItem.ires"
+
+IDEXT_MSCTLS_UPDOWN32_LR IRES                    "src\\theme\\msctls_updown32_lr.ires"
+
+IDEXT_MSCTLS_UPDOWN32_TB IRES                    "src\\theme\\msctls_updown32_tb.ires"
+
+IDEXT_TOOLICON          IRES                    "src\\theme\\ToolBar.ires"
+
+IDEXT_TREECONTROL       IRES                    "src\\theme\\TreeControl.ires"
+
+IDEXT_EXPAND            IRES                    "src\\theme\\TreeExpand.ires"
+
+IDEXT_TREEFNE           IRES                    "src\\theme\\TreeFne.ires"
+
+IDEXT_TREEPROGRAM       IRES                    "src\\theme\\TreeProgram.ires"
+
+IDEXT_TOPSTATE          IRES                    "src\\theme\\TopState.ires"
+
+IDR_ICON                IRES                    "src\\theme\\icon.ires"
+
+IDTHEME_DATA            IRES                    "src\\默认主题数据集合.bin"
+
+IDR_FONT_MARLETT        IRES                    "src\\marlett.ttf"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// NSKN
+//
+
+IDR_NSKN1               NSKN                    "src\\主题.nskn"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDPNG_ELOGO             PNG                     "src\\eLogo.png"
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

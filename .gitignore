@@ -1,0 +1,42 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.tlog
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+*.idb
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
+/iDraw/src/素材/
+/易IDE视觉库调试版/*
+/易IDE视觉库/lib/*
+/易IDE视觉库/Tools/*
+/易IDE视觉库/成品插件/*
+/易IDE视觉库/*.zip
+/*/调试[Rr]elease/*
+
+.idea/

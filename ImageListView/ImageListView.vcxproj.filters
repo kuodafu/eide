@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="辅助功能">
+      <UniqueIdentifier>{66e2b490-131f-4bc0-8fd5-299825cc4160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\窗口">
+      <UniqueIdentifier>{fa263756-6caa-4f40-8ef2-f69b3f5d8ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\d2d">
+      <UniqueIdentifier>{4552b0b5-671f-4544-a13b-056dfa6c7b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\xml">
+      <UniqueIdentifier>{b5600f9c-258e-44f1-aa8e-3dd82056c60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\zlib">
+      <UniqueIdentifier>{c4051811-5a6c-4a6d-b61b-6ad25c6173c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageListView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\CListBox.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\WndBase.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\xml2\tinyxml2.h">
+      <Filter>辅助功能\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ThemeResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\crc32.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\Czlib.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\deflate.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\gzguts.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\inffast.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\inffixed.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\inflate.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\inftrees.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\trees.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\zconf.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\zlib.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\zlib\zutil.h">
+      <Filter>辅助功能\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ThemeResourceExt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\iDraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\d2d\_canvas.h">
+      <Filter>辅助功能\d2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\d2d\Color.h">
+      <Filter>辅助功能\d2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\d2d\d2d_old.h">
+      <Filter>辅助功能\d2d</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageListView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\xml2\tinyxml2.cpp">
+      <Filter>辅助功能\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="assist_imagelistview.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageList_Command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageList_create.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageList_File.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageList_DrawList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ThemeResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\adler32.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\compress.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\crc32.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\deflate.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\gzclose.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\gzlib.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\gzread.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\gzwrite.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\infback.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\inffast.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\inflate.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\inftrees.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\trees.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\uncompr.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\zlib\zutil.c">
+      <Filter>辅助功能\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\ThemeResourceExt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\d2d\d2d_old.cpp">
+      <Filter>辅助功能\d2d</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageListView.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ImageListView.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

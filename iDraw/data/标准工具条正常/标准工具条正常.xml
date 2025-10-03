@@ -1,0 +1,25 @@
+<theme path="梓袧馱撿沭淏都" size="16,15">
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\NewFileCollection_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\OpenFolder_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\SaveStatusBar1_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\Cut_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\Copy_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\Paste_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\Print_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\Undo_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\Redo_16x.png"/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\Run_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\Stop_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\FileSystemWatcher_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\StepForward_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\StepOver_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\StepOut_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\StepIn_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\ToggleAllBreakpoints_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\displayIcon\ToolTip_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\MenuBar\dis\FindResults_16x.png"/>
+</theme>

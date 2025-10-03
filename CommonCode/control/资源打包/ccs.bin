@@ -1,0 +1,11 @@
+CCS_TOP|1|顶部对齐(工具栏控件缺省值)
+CCS_NOMOVEY|2|可以水平移动和改变大小(如指定了CCS_NORESIZE则无效)
+CCS_BOTTOM|3|底部对齐(状态栏控件缺少值)
+CCS_NORESIZE|4|禁止改变大小
+CCS_NOPARENTALIGN|8|禁止自动移动到父窗口的顶部或底部
+CCS_ADJUSTABLE|32|允许工具栏内置的定制按钮功能
+CCS_NODIVIDER|64|不在控件顶部画高亮线
+CCS_VERT|128|垂直显示
+CCS_LEFT|129|垂直并居左显示
+CCS_RIGHT|131|垂直并居右显示
+CCS_NOMOVEX|130|可以垂直移动和改变大小(如指定了CCS_NORESIZE则无效)

@@ -1,0 +1,5 @@
+<IconProject Tips="文件记录几个状态的图片路径和在图片中的位置" size="16,16">
+    <Item id="default" normal="" hot="" down="" ban="" rcnormal="0,0,0,0" rchot="0,0,0,0" rcdown="0,0,0,0" rcban="0,0,0,0">默认的树型框展开收缩图标, 0=收缩图标, 1=展开图标</Item>
+    <Item id="0" normal="D:\cpp\SVN工作目录\易语言界面\iDraw\data\project\TreeExpand\ex1.png" hot="" down="" ban="" rcnormal="0,0,0,0" rchot="0,0,0,0" rcdown="0,0,0,0" rcban="0,0,0,0">收缩图标</Item>
+    <Item id="1" normal="D:\cpp\SVN工作目录\易语言界面\iDraw\data\project\TreeExpand\ex2.png" hot="" down="" ban="" rcnormal="0,0,0,0" rchot="0,0,0,0" rcdown="0,0,0,0" rcban="0,0,0,0">展开图标</Item>
+</IconProject>

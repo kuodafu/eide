@@ -1,0 +1,10 @@
+TVS_EX_NOSINGLECOLLAPSE|1|不推荐使用。不要折叠先前选择的树视图项，除非它具有与新选择相同的父项。此样式必须与TVS_SINGLEEXPAND样式一起使用。
+TVS_EX_DOUBLEBUFFER|4|指定如何擦除或填充背景。
+TVS_EX_NOINDENTSTATE|8|不要缩进expando按钮的树视图。
+TVS_EX_RICHTOOLTIP|16|在树视图中允许丰富的工具提示（使用图标和文本自定义）。
+TVS_EX_AUTOHSCROLL|32|取消水平滚动条并根据鼠标位置自动滚动。
+TVS_EX_FADEINOUTEXPANDOS|64|当鼠标移开或进入悬停在控件上方的状态时，将expando按钮淡入或淡出。
+TVS_EX_PARTIALCHECKBOXES|128|如果控件具有TVS_CHECKBOXES样式，则包括部分复选框状态。
+TVS_EX_EXCLUSIONCHECKBOXES|256|如果控件具有TVS_CHECKBOXES样式，则包括排除复选框状态。
+TVS_EX_DIMMEDCHECKBOXES|512|如果控件具有TVS_CHECKBOXES样式，则包括灰色复选框状态。
+TVS_EX_DRAWIMAGEASYNC|1024|检索日历网格信息。

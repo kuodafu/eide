@@ -1,0 +1,6 @@
+CBES_EX_NOEDITIMAGE|1|编辑框和下拉列表不会显示项目图像
+CBES_EX_NOEDITIMAGEINDENT|2|编辑框和下拉列表不会显示项目图像
+CBES_EX_PATHWORDBREAKPROC|4|仅适用于Windows NT。编辑框将使用斜杠（/），反斜杠（）和句点（。）字符作为单词分隔符。这使得逐字光标移动的键盘快捷键在路径名和URL中有效。
+CBES_EX_NOSIZELIMIT|8|允许ComboBoxEx控件的垂直大小小于其包含的组合框控件。如果ComboBoxEx的大小小于组合框，则组合框将被剪裁。
+CBES_EX_CASESENSITIVE|16|列表中的BSTR搜索将区分大小写。这包括在编辑框中输入文本和CB_FINDSTRINGEXACT消息的搜索结果
+CBES_EX_TEXTENDELLIPSIS|32|导致下拉列表和编辑框中的项目（当只读编辑框时）用省略号（“...”）截断，而不是仅由控件的边缘剪切。当控件需要设置为固定宽度时，这很有用，但列表中的条目可能很长。

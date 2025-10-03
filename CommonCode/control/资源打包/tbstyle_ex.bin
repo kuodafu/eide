@@ -1,0 +1,5 @@
+TBSTYLE_EX_MULTICOLUMN|2|拟用于内部使用; 不推荐用于应用程序。此样式为工具栏提供垂直方向，并将工具栏按钮组织为列。按钮垂直向下流动，直到按钮超出工具栏的边界高度（请参阅TB_SETBOUNDINGSIZE），然后创建新列。工具栏以这种方式流动按钮，直到所有按钮都定位。要使用此样式，还必须设置TBSTYLE_EX_VERTICAL样式。
+TBSTYLE_EX_VERTICAL|4|拟用于内部使用; 不推荐用于应用程序。此样式为工具栏提供垂直方向。工具栏按钮从上到下而不是水平流动。
+TBSTYLE_EX_MIXEDBUTTONS|8|混合按钮
+TBSTYLE_EX_HIDECLIPPEDBUTTONS|16|隐藏部分省略的按钮
+TBSTYLE_EX_DOUBLEBUFFER|128|双缓冲机制(检测ToolBar是否改变)(WinXP以上)

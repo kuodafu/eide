@@ -1,0 +1,8 @@
+MCS_DAYSTATE|1|允许发送MCN_GETDAYSTATE通知获取日期状态
+MCS_MULTISELECT|2|允许多选
+MCS_WEEKNUMBERS|4|在左侧显示周数
+MCS_NOTODAYCIRCLE|8|不在今天的日期上显示一个圆圈
+MCS_NOTODAY|16|不显示今天
+MCS_NOSELCHANGEONNAV|256|当用户在日历中导航下一个或上一个时，不会更改选择。这允许用户选择大于可见范围的范围。
+MCS_SHORTDAYSOFWEEK|128|标题中显示短日期名称
+MCS_NOTRAILINGDATES|64|上个月和下个月的日期不会显示在当前月份的日历中。

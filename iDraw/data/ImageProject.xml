@@ -1,0 +1,10 @@
+<ImageProject Tips="记录工程信息, 每个节点都指向一个xml项目, 项目里记录详细的图标信息">
+    <Item name="tool"/>
+    <Item name="支持库"/>
+    <Item name="定位工具条"/>
+    <Item name="TreeProgram"/>
+    <Item name="TreeControl"/>
+    <Item name="TreeFne"/>
+    <Item name="MenuItem"/>
+    <Item name="TreeExpand"/>
+</ImageProject>

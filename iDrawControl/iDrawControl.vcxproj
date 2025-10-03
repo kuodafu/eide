@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="testdll|Win32">
+      <Configuration>testdll</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="testdll|x64">
+      <Configuration>testdll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="调试Release|Win32">
+      <Configuration>调试Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="调试Release|x64">
+      <Configuration>调试Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{10816b47-9ec7-43b3-9db7-ca6c333d3f0a}</ProjectGuid>
+    <RootNamespace>iDrawControl</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='testdll|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='调试Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='testdll|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='调试Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='testdll|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='调试Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='testdll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='调试Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>D:\e\lib\iDraw\</OutDir>
+    <TargetName>iControls</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='testdll|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>d:\e\lib\iDraw\</OutDir>
+    <TargetName>iControls</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>d:\e\lib\iDraw\</OutDir>
+    <TargetName>iControls</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='调试Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>d:\e\lib\iDraw\</OutDir>
+    <TargetName>iControls</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>iControls</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='testdll|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>iControls</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>iControls</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='调试Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>iControls</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnabled>true</VcpkgEnabled>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__E_FNENAME=iDraw;WIN32;_DEBUG;IDRAWCONTROL_EXPORTS;_WINDOWS;_USRDLL;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\CommonCode;..\include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4828;4819;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>../include/iDraw_Interface.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "I:\cpp\_git_works\eide\易IDE视觉库调试版\lib\iDraw\$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='testdll|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__E_FNENAME=iDraw;WIN32;_DEBUG;IDRAWCONTROL_EXPORTS;_WINDOWS;_USRDLL;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\CommonCode;..\include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>../include/iDraw_Interface.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "I:\cpp\_git_works\eide\易IDE视觉库调试版\lib\iDraw\$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__E_FNENAME=iDraw;WIN32;NDEBUG;IDRAWCONTROL_EXPORTS;_WINDOWS;_USRDLL;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\CommonCode;..\include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4828;4819;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>../include/iDraw_Interface.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "I:\cpp\_git_works\eide\易IDE视觉库\lib\iDraw\$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='调试Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__E_FNENAME=iDraw;WIN32;NDEBUG;IDRAWCONTROL_EXPORTS;_WINDOWS;_USRDLL;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\CommonCode;..\include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <Optimization>Disabled</Optimization>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DisableSpecificWarnings>4828;4819;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>../include/iDraw_Interface.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "I:\cpp\_git_works\eide\易IDE视觉库\lib\iDraw\$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;IDRAWCONTROL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\CommonCode;..\include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>../include/iDraw_Interface.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "I:\cpp\_git_works\eide\易IDE视觉库调试版\lib\iDraw\$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='testdll|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;IDRAWCONTROL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\CommonCode;..\include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>../include/iDraw_Interface.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "I:\cpp\_git_works\eide\易IDE视觉库调试版\lib\iDraw\$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;IDRAWCONTROL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\CommonCode;..\include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>../include/iDraw_Interface.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "I:\cpp\_git_works\eide\易IDE视觉库\lib\iDraw\$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='调试Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;IDRAWCONTROL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\CommonCode;..\include;</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ModuleDefinitionFile>../include/iDraw_Interface.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(OutDir)$(TargetName)$(TargetExt)" "I:\cpp\_git_works\eide\易IDE视觉库\lib\iDraw\$(TargetName)$(TargetExt)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CommonCode\assist\CPrivateProfile.h" />
+    <ClInclude Include="..\CommonCode\control\CImgList.h" />
+    <ClInclude Include="..\CommonCode\control\CLayered.h" />
+    <ClInclude Include="..\CommonCode\control\Ctips.h" />
+    <ClInclude Include="..\CommonCode\control\DrawScroll.h" />
+    <ClInclude Include="..\CommonCode\control\draw_Window.h" />
+    <ClInclude Include="..\CommonCode\control\draw_Window_include.h" />
+    <ClInclude Include="..\CommonCode\control\WndBase.h" />
+    <ClInclude Include="..\CommonCode\d2d\d2d_old.h" />
+    <ClInclude Include="..\CommonCode\d2d\_canvas.h" />
+    <ClInclude Include="..\CommonCode\elib\fne_decrypt.h" />
+    <ClInclude Include="..\CommonCode\hook\apiHook.h" />
+    <ClInclude Include="..\CommonCode\hook\buffer.h" />
+    <ClInclude Include="..\CommonCode\hook\hde\hde32.h" />
+    <ClInclude Include="..\CommonCode\hook\hde\hde64.h" />
+    <ClInclude Include="..\CommonCode\hook\hde\pstdint.h" />
+    <ClInclude Include="..\CommonCode\hook\hde\table32.h" />
+    <ClInclude Include="..\CommonCode\hook\hde\table64.h" />
+    <ClInclude Include="..\CommonCode\hook\MinHook.h" />
+    <ClInclude Include="..\CommonCode\hook\trampoline.h" />
+    <ClInclude Include="..\CommonCode\hook_detours\ApiHook.h" />
+    <ClInclude Include="..\CommonCode\hook_detours\detours\detours.h" />
+    <ClInclude Include="..\CommonCode\hook_detours\detours\detver.h" />
+    <ClInclude Include="..\CommonCode\Memory_BeaEngine.h" />
+    <ClInclude Include="..\CommonCode\Memory_MonitorAddress.h" />
+    <ClInclude Include="..\CommonCode\message_name.h" />
+    <ClInclude Include="..\CommonCode\process_muster.h" />
+    <ClInclude Include="..\include\EIDE_Interface.h" />
+    <ClInclude Include="..\include\EIDE_InternalMethods.h" />
+    <ClInclude Include="..\include\EIDE_Virtual.h" />
+    <ClInclude Include="..\include\iDraw_virtual.h" />
+    <ClInclude Include="CIDC_Fun.h" />
+    <ClInclude Include="EControls.h" />
+    <ClInclude Include="EMenu.h" />
+    <ClInclude Include="EWindow.h" />
+    <ClInclude Include="EWindow_Fne_Header.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="iDrawControls_Subclass.h" />
+    <ClInclude Include="WndMessage\wnd_header.h" />
+    <ClInclude Include="_draw_top_state.h" />
+    <ClInclude Include="_scale.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CommonCode\control\DrawScroll.cpp" />
+    <ClCompile Include="..\CommonCode\control\draw_Window.cpp" />
+    <ClCompile Include="..\CommonCode\d2d\d2d_old.cpp" />
+    <ClCompile Include="..\CommonCode\elib\fne_decrypt.cpp" />
+    <ClCompile Include="..\CommonCode\hook\buffer.c" />
+    <ClCompile Include="..\CommonCode\hook\hde\hde32.c" />
+    <ClCompile Include="..\CommonCode\hook\hde\hde64.c" />
+    <ClCompile Include="..\CommonCode\hook\hook.c" />
+    <ClCompile Include="..\CommonCode\hook\trampoline.c" />
+    <ClCompile Include="..\CommonCode\hook_detours\detours\detours.cpp" />
+    <ClCompile Include="..\CommonCode\hook_detours\detours\disasm.cpp" />
+    <ClCompile Include="..\CommonCode\hook_detours\detours\disolx86.cpp" />
+    <ClCompile Include="..\CommonCode\hook_detours\detours\modules.cpp" />
+    <ClCompile Include="..\CommonCode\Memory_MonitorAddress.cpp" />
+    <ClCompile Include="..\CommonCode\process_muster.cpp" />
+    <ClCompile Include="..\include\EIDE_CodeManage.cpp" />
+    <ClCompile Include="..\include\EIDE_InternalMethods.cpp" />
+    <ClCompile Include="CIDC_Fun.cpp" />
+    <ClCompile Include="CustomMenu.cpp" />
+    <ClCompile Include="EControls_main.cpp" />
+    <ClCompile Include="EControl_Default_WndProc.cpp" />
+    <ClCompile Include="EControl_WndProc.cpp" />
+    <ClCompile Include="EMenu.cpp" />
+    <ClCompile Include="EWindow_DrawMDIClientCode.cpp" />
+    <ClCompile Include="EWindow_EIDE.cpp" />
+    <ClCompile Include="EWindow_Fne_DrawMenu.cpp" />
+    <ClCompile Include="EWindow_Fne_Interface.cpp" />
+    <ClCompile Include="EWindow_Fne_SetWindowsHook.cpp" />
+    <ClCompile Include="EWindow_HookMenu.cpp" />
+    <ClCompile Include="EWindow_Menu_RButton.cpp" />
+    <ClCompile Include="hook_CreateWindowEx.cpp" />
+    <ClCompile Include="hook_LoadString.cpp" />
+    <ClCompile Include="WndMessage\wnd_key.cpp" />
+    <ClCompile Include="WndMessage\wnd_nchittest.cpp" />
+    <ClCompile Include="WndMessage\wnd_oncommand.cpp" />
+    <ClCompile Include="WndMessage\wnd_ongetminmaxinfo.cpp" />
+    <ClCompile Include="WndMessage\wnd_OnMeasureItem.cpp" />
+    <ClCompile Include="WndMessage\wnd_onmouse.cpp" />
+    <ClCompile Include="WndMessage\wnd_onncmouse.cpp" />
+    <ClCompile Include="WndMessage\wnd_onpaint.cpp" />
+    <ClCompile Include="WndMessage\wnd_onwinsowsize.cpp" />
+    <ClCompile Include="WndMessage\wnd_stylechange.cpp" />
+    <ClCompile Include="WndMessage\wnd_sysbutton.cpp" />
+    <ClCompile Include="WndMessage\wnd_syscommand.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_Button.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_ComboBox.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_Edit.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_DrawIcon.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_DrawSysButton.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_drawTab.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_DrawTitle.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_DropFile.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_OnCommand.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_Shadow.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_HScroll.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_ListBox.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_ListView.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_MDIClient.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_MDIClientCusTab.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_MDIClient_EHomePage.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_MDIClient_EWindow.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_Menu.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_msctls_updown32.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_Static.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_StatusBar.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_Tab.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_ToolBar.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_TreeView.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_TreeView_Ctrl_F.cpp" />
+    <ClCompile Include="WndProc_cpp\WndProc_VScroll.cpp" />
+    <ClCompile Include="_draw_top_state.cpp" />
+    <ClCompile Include="_draw_top_state_move.cpp" />
+    <ClCompile Include="_scale.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

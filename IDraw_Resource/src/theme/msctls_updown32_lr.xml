@@ -1,0 +1,5 @@
+<Theme maxSize="5,9" imgSize="40,9">
+    <Item id="default" text="" szRect1="0,0,0,0" szRect2="0,0,0,0" szRect3="0,0,0,0" szRect4="0,0,0,0" crText1="ARGB(0, 0, 0, 0)" crText2="ARGB(0, 0, 0, 0)" crText3="ARGB(0, 0, 0, 0)" crText4="ARGB(0, 0, 0, 0)" crBack1="ARGB(0, 0, 0, 0)" crBack2="ARGB(0, 0, 0, 0)" crBack3="ARGB(0, 0, 0, 0)" crBack4="ARGB(0, 0, 0, 0)">вСср╣В╫зфВ, 0=вС╠ъ, 1=ср╠ъ</Item>
+    <Item id="0" text="" szRect1="0,0,5,9" szRect2="5,0,10,9" szRect3="10,0,15,9" szRect4="15,0,20,9" crText1="ARGB(0, 0, 0, 0)" crText2="ARGB(0, 0, 0, 0)" crText3="ARGB(0, 0, 0, 0)" crText4="ARGB(0, 0, 0, 0)" crBack1="ARGB(0, 0, 0, 0)" crBack2="ARGB(0, 0, 0, 0)" crBack3="ARGB(0, 0, 0, 0)" crBack4="ARGB(0, 0, 0, 0)">вС╠ъ</Item>
+    <Item id="1" text="" szRect1="20,0,25,9" szRect2="25,0,30,9" szRect3="30,0,35,9" szRect4="35,0,40,9" crText1="ARGB(0, 0, 0, 0)" crText2="ARGB(0, 0, 0, 0)" crText3="ARGB(0, 0, 0, 0)" crText4="ARGB(0, 0, 0, 0)" crBack1="ARGB(0, 0, 0, 0)" crBack2="ARGB(0, 0, 0, 0)" crBack3="ARGB(0, 0, 0, 0)" crBack4="ARGB(0, 0, 0, 0)">ср╠ъ</Item>
+</Theme>

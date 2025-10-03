@@ -1,0 +1,5 @@
+LIBRARY
+
+EXPORTS
+    IDraw_Interface
+	IDraw_UnInterface

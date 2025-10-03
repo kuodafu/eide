@@ -1,0 +1,18 @@
+<IconProject Tips="文件记录几个状态的图片路径" size="16,16">
+    <Item id="默认">支持库列表没有设置名字时默认使用的值</Item>
+    <Item id="如果"/>
+    <Item id="如果真"/>
+    <Item id="判断开始"/>
+    <Item id="判断循环首"/>
+    <Item id="循环判断首"/>
+    <Item id="计次循环首"/>
+    <Item id="变量循环首"/>
+    <Item id="到循环尾"/>
+    <Item id="跳出循环"/>
+    <Item id="返回"/>
+    <Item id="算术运算"/>
+    <Item id="数据库"/>
+    <Item id="属性"/>
+    <Item id="事件"/>
+    <Item id="常量"/>
+</IconProject>

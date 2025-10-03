@@ -1,0 +1,32 @@
+SS_LEFT|0|左对齐
+SS_CENTER|1|居中对齐
+SS_RIGHT|2|右对齐
+SS_ICON|3|显示为图标
+SS_BLACKRECT|4|黑色矩形
+SS_GRAYRECT|5|灰色矩形
+SS_WHITERECT|6|白色矩形
+SS_BLACKFRAME|7|黑色边框
+SS_GRAYFRAME|8|灰色边框
+SS_WHITEFRAME|9|白色边框
+SS_USERITEM|10|用户定义
+SS_SIMPLE|11|指定一个简单矩形并在矩形中显示一行文字
+SS_LEFTNOWORDWRAP|12|左对齐,文字不换行,超过部分省略
+SS_OWNERDRAW|13|允许自画,该控件可接受 WM_DRAWITEM 消息
+SS_BITMAP|14|显示为位图
+SS_ENHMETAFILE|15|显示为增强图元文件(WMF)
+SS_ETCHEDHORZ|16|用 EDGE_ETCHED 样式绘制上下边框
+SS_ETCHEDVERT|17|用 EDGE_ETCHED 样式绘制左右边框
+SS_ETCHEDFRAME|18|用 EDGE_ETCHED 样式绘制四周边框
+SS_TYPEMASK|31|已过期,不使用
+SS_REALSIZECONTROL|64|图像随控件缩放
+SS_NOPREFIX|128|不处理前缀字符(&)
+SS_NOTIFY|256|单击或双击时通知父窗口
+SS_CENTERIMAGE|512|图像居中
+SS_RIGHTJUST|1024|在调整控件大小时，具有SS_BITMAP或SS_ICON样式的静态控件的右下角将保持固定。仅调整顶部和左侧以适应新的位图或图标。
+SS_REALSIZEIMAGE|2048|图像不缩放,超过部分省略
+SS_SUNKEN|4096|凹边框
+SS_EDITCONTROL|8192|静态控件复制多行编辑控件的文本显示特性。具体地，平均字符宽度以与编辑控件相同的方式计算，并且该函数不显示部分可见的最后一行。
+SS_ENDELLIPSIS|16384|结尾超出范围的字符串将省略,若超出限制后面不加圆点.
+SS_PATHELLIPSIS|32768|用椭圆替换字符串中间的字符，以便结果适合指定的矩形。如果字符串包含反斜杠（）字符，则SS_PATHELLIPSIS会在最后一个反斜杠后保留尽可能多的文本。使用此样式将强制控件的文本在一行而不包含自动换行。与SS_ENDELLIPSIS和SS_WORDELLIPSIS比较。
+SS_WORDELLIPSIS|49152|任何超出范围的字都要被省略并加三个圆点
+SS_ELLIPSISMASK|49152|任何超出范围的字都要被省略并加三个圆点

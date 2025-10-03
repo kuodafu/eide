@@ -1,0 +1,29 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2025 精易科技
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+商业限制条款
+
+除非获得原作者书面许可，否则本项目及其衍生作品不得用于任何商业目的。具体来说：
+本项目及其修改版本不得用于商业销售、收费服务、广告或任何形式的盈利活动。
+任何通过本项目开发的衍生作品、插件或应用，若涉及商业化用途，必须获得原作者的授权。
+
+插件开发者的特别说明：
+本协议仅适用于对本库源码的修改与二次分发。
+插件开发者在使用本库的 API 进行插件开发时，不受上述商业限制的约束。
+插件的分发与使用不受限制，可以按个人需求进行商用、闭源或开源。
+
+未经授权，将本项目用于商业用途的行为将被视为违反本许可证，并可能面临法律责任。

@@ -1,0 +1,2 @@
+TCS_EX_FLATSEPARATORS|1|平面分隔条
+TCS_EX_REGISTERDROP|2|注册拖放通知事件, 使用前须初始化OLE

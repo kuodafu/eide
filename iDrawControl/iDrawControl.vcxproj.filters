@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="辅助功能">
+      <UniqueIdentifier>{1cf1c3f8-332f-4a70-be91-594fb5d263be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\d2d">
+      <UniqueIdentifier>{faf3d987-c42c-49b4-826b-668877a27145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\窗口">
+      <UniqueIdentifier>{7c348d95-4f4b-4ab4-b8a3-0d5f82d615da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="接口">
+      <UniqueIdentifier>{7b55f3d1-79d5-49a5-892e-dab642dc1419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\hook">
+      <UniqueIdentifier>{48366c09-de4d-453a-b648-5efd36a633af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\hook\detours">
+      <UniqueIdentifier>{757b9eb4-dc42-4851-ae3f-7eeefc577746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="消息默认处理">
+      <UniqueIdentifier>{f926c5e1-7f77-48ab-b66f-e380bad46654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="重画控件">
+      <UniqueIdentifier>{b64c0396-3830-4a22-a317-0adc4a841b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EIDE功能">
+      <UniqueIdentifier>{2b56a386-9abf-49b2-b7a6-34d5333dec22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\hook1">
+      <UniqueIdentifier>{0ce21b30-5283-4c79-87b2-73a5e424c10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\hook1\hde">
+      <UniqueIdentifier>{06f448e2-1b06-4096-aea0-7cd2c94e7dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辅助功能\BeaEngine">
+      <UniqueIdentifier>{54ca78f5-fcca-4b1e-a469-16b33212e5f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\assist\CPrivateProfile.h">
+      <Filter>辅助功能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\CImgList.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\DrawScroll.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\WndBase.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\Ctips.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\CLayered.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\iDraw_virtual.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook_detours\ApiHook.h">
+      <Filter>辅助功能\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook_detours\detours\detours.h">
+      <Filter>辅助功能\hook\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook_detours\detours\detver.h">
+      <Filter>辅助功能\hook\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="EControls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WndMessage\wnd_header.h">
+      <Filter>消息默认处理</Filter>
+    </ClInclude>
+    <ClInclude Include="EMenu.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iDrawControls_Subclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\process_muster.h">
+      <Filter>辅助功能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EIDE_Interface.h">
+      <Filter>EIDE功能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EIDE_InternalMethods.h">
+      <Filter>EIDE功能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EIDE_Virtual.h">
+      <Filter>EIDE功能</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\apiHook.h">
+      <Filter>辅助功能\hook1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\buffer.h">
+      <Filter>辅助功能\hook1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\MinHook.h">
+      <Filter>辅助功能\hook1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\trampoline.h">
+      <Filter>辅助功能\hook1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\hde\hde32.h">
+      <Filter>辅助功能\hook1\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\hde\hde64.h">
+      <Filter>辅助功能\hook1\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\hde\pstdint.h">
+      <Filter>辅助功能\hook1\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\hde\table32.h">
+      <Filter>辅助功能\hook1\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\hook\hde\table64.h">
+      <Filter>辅助功能\hook1\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\elib\fne_decrypt.h">
+      <Filter>辅助功能</Filter>
+    </ClInclude>
+    <ClInclude Include="EWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_draw_top_state.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="_scale.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EWindow_Fne_Header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\d2d\_canvas.h">
+      <Filter>辅助功能\d2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\message_name.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CIDC_Fun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\Memory_BeaEngine.h">
+      <Filter>辅助功能\BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\Memory_MonitorAddress.h">
+      <Filter>辅助功能\BeaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\draw_Window.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\control\draw_Window_include.h">
+      <Filter>辅助功能\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonCode\d2d\d2d_old.h">
+      <Filter>辅助功能\d2d</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CommonCode\control\DrawScroll.cpp">
+      <Filter>辅助功能\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook_detours\detours\detours.cpp">
+      <Filter>辅助功能\hook\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook_detours\detours\disasm.cpp">
+      <Filter>辅助功能\hook\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook_detours\detours\disolx86.cpp">
+      <Filter>辅助功能\hook\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook_detours\detours\modules.cpp">
+      <Filter>辅助功能\hook\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="EControl_WndProc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EControl_Default_WndProc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_key.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_nchittest.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_oncommand.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_ongetminmaxinfo.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_OnMeasureItem.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_onmouse.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_onncmouse.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_onpaint.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_onwinsowsize.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_stylechange.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_sysbutton.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndMessage\wnd_syscommand.cpp">
+      <Filter>消息默认处理</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_Button.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_ComboBox.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_Edit.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_HScroll.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_ListBox.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_ListView.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_MDIClient.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_MDIClientCusTab.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_MDIClient_EHomePage.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_MDIClient_EWindow.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_Menu.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_msctls_updown32.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_Static.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_StatusBar.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_Tab.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_ToolBar.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_TreeView.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_VScroll.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="_draw_top_state.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindow_Fne_DrawMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindow_Fne_Interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindow_Fne_SetWindowsHook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindow_HookMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EControls_main.cpp">
+      <Filter>接口</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\process_muster.cpp">
+      <Filter>辅助功能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\EIDE_CodeManage.cpp">
+      <Filter>EIDE功能</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\EIDE_InternalMethods.cpp">
+      <Filter>EIDE功能</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindow_EIDE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindow_DrawMDIClientCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook\buffer.c">
+      <Filter>辅助功能\hook1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook\hook.c">
+      <Filter>辅助功能\hook1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook\trampoline.c">
+      <Filter>辅助功能\hook1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook\hde\hde32.c">
+      <Filter>辅助功能\hook1\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\hook\hde\hde64.c">
+      <Filter>辅助功能\hook1\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\elib\fne_decrypt.cpp">
+      <Filter>辅助功能</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_drawTab.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_DrawTitle.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_DrawIcon.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_OnCommand.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_DrawSysButton.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_Shadow.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="_draw_top_state_move.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_EWindow_DropFile.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="_scale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CIDC_Fun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\Memory_MonitorAddress.cpp">
+      <Filter>辅助功能\BeaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\control\draw_Window.cpp">
+      <Filter>辅助功能\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc_cpp\WndProc_TreeView_Ctrl_F.cpp">
+      <Filter>重画控件</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindow_Menu_RButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_LoadString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_CreateWindowEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonCode\d2d\d2d_old.cpp">
+      <Filter>辅助功能\d2d</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

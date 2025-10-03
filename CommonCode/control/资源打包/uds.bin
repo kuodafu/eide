@@ -1,0 +1,9 @@
+UDS_WRAP|1|递增和递减如果超过边界则循环
+UDS_SETBUDDYINT|2|值改变时设置关联窗口的文本
+UDS_ALIGNRIGHT|4|位置在关联窗口的右边
+UDS_ALIGNLEFT|8|位置在关联窗口的左边
+UDS_AUTOBUDDY|16|自动选择上一个窗口为关联窗口
+UDS_ARROWKEYS|32|响应键盘的上下键
+UDS_HORZ|64|水平显示
+UDS_NOTHOUSANDS|128|不在每三个十进制数字之间插入千位分隔符
+UDS_HOTTRACK|256|允许热点选择

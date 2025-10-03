@@ -1,0 +1,8 @@
+RBS_TOOLTIPS|256|尚不支持
+RBS_VARHEIGHT|512|在可能的情况下，钢筋控制器以最小所需高度显示带。如果没有这种样式，钢筋控制将使用最高可见波段的高度显示相同高度的所有波段，以确定其他波段的高度。
+RBS_BANDBORDERS|1024|钢筋控制显示窄线以分隔相邻的带
+RBS_FIXEDORDER|2048|钢筋控制始终以相同的顺序显示带。您可以将波段移动到不同的行，但波段顺序是静态的。
+RBS_REGISTERDROP|4096|当对象在控件中的带上拖动时，钢筋控件生成RBN_GETOBJECT通知代码。要接收RBN_GETOBJECT通知，请通过调用OleInitialize或CoInitialize来初始化OLE 。
+RBS_AUTOSIZE|8192|当控件的大小或位置发生变化时，钢筋控制将自动改变带的布局。一个RBN_AUTOSIZE发生这种情况时，将发送通知。
+RBS_VERTICALGRIPPER|16384|在垂直钢筋控制中，尺寸夹具将垂直显示而不是水平显示。对于没有CCS_VERT样式的钢筋控件，将忽略此样式。
+RBS_DBLCLKTOGGLE|32768|当用户双击乐队时，钢筋乐队将切换其最大化或最小化状态。如果没有这种风格，当用户单击乐队时，可以切换最大化或最小化状态

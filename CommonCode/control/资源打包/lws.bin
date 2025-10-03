@@ -1,0 +1,6 @@
+LWS_TRANSPARENT|1|背景混合模式是透明的
+LWS_IGNORERETURN|2|当链接具有键盘焦点并且用户按下Enter键时，控件将忽略键击并将其传递到主机对话框。
+LWS_NOPREFIX|4|如果文本包含＆符号，则将其视为文字字符，而不是快捷键的前缀。
+LWS_USEVISUALSTYLE|8|链接以当前视觉样式显示
+LWS_USECUSTOMTEXT|16|一个NM_CUSTOMTEXT绘制的控制时通知被发送，以便该应用程序可以动态地提供文本。
+LWS_RIGHT|32|文本右对齐

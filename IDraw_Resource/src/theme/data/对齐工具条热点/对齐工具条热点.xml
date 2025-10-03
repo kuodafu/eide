@@ -1,0 +1,16 @@
+<theme path="勤ょ馱撿沭��萸" size="16,15">
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\RunTestDialog_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\AlignLeft_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\AlignRight_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\AlignTop_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\AlignBottom_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\TextCenterInFormHorizontal_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\CenterInFormVertical_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\DistributeVerticalCenter_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\DistributeHorizontalCenter_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\SpaceAcross_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\SpaceDown_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\AutosizeFixedWidth_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\TextLineHeight_16x.png"/>
+    <Item image="D:\Desktop\匼第\ETStudio2.0\lib\ETStudio\Theme\White\Image\ToolBar\Btn\AutosizeOptimize_16x.png"/>
+</theme>
